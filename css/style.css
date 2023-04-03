@@ -1,0 +1,89 @@
+/* regole GENERALI PAGINA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* regole HEADER */
+header {
+    background-color: #0084fd;
+    height: 100px;
+    width: 100%;
+    max-width: 480px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-nav .nav-tablet-desktop {
+    display: none;
+}
+
+
+/* regole RESPONSIVE - HEADER - TABLET */
+@media screen and (min-width:480px) and (max-width:768px) {
+    header {
+        max-width: 768px;
+    }
+} 
+
+
+/* regole RESPONSIVE - HEADER - DESKTOP */
+@media screen and (min-width:768px) {
+    header {
+        min-width: 768px;
+        max-width: 100%;
+    }
+
+    header .header-nav .nav-tablet-desktop {
+        display: block;
+    }
+
+    header .header-nav .nav-mobile {
+        display: none;
+    }
+
+    header .container {
+        width: 70%;
+    }
+} 
+
+
+/* regole DEBUG */
+header .container {
+    background-color: brown;
+}
+
+.logo, .header-nav {
+    background-color: blueviolet;
+    border: 2px solid black;
+    min-width: 80px;
+    min-height: 50px;
+}
+
+.container .header-nav .nav-mobile {
+    background-color: rgb(34, 181, 140);
+}
+
+.container .header-nav .nav-tablet-desktop {
+    background-color: rgb(197, 238, 11);
+}
