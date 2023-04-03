@@ -237,7 +237,7 @@ main .container .getademo-card.first .card-photo.first {
 }
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    /* regole RESPONSIVE - TESTIMONIALS section - TABLET */
     @media screen and (min-width:480px) {
         .container.testimonial-cont {
             max-width: 768px;
@@ -250,7 +250,7 @@ main .container .getademo-card.first .card-photo.first {
     } 
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    /* regole RESPONSIVE - TESTIMONIALS section - DESKTOP */
     @media screen and (min-width:768px) {
         .container.testimonial-cont {
             width: 70%;
@@ -283,7 +283,7 @@ main .container .getademo-card.first .card-photo.first {
 }
 
 
-   /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+   /* regole RESPONSIVE - BENIFITS section - TABLET */
    @media screen and (min-width:480px) {
         .container.benefits-cont {
             max-width: 768px;
@@ -302,7 +302,7 @@ main .container .getademo-card.first .card-photo.first {
     } 
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    /* regole RESPONSIVE - BENIFITS section - DESKTOP */
     @media screen and (min-width:768px) {
         .container.benefits-cont {
             width: 70%;
@@ -324,7 +324,7 @@ main .container .getademo-card.first .card-photo.first {
 }
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    /* regole RESPONSIVE - ABOUT US section - TABLET */
     @media screen and (min-width:480px) {
         .container.aboutus-cont {
             width: 80%;
@@ -345,7 +345,7 @@ main .container .getademo-card.first .card-photo.first {
     } 
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    /* regole RESPONSIVE - ABOUT US section - DESKTOP */
     @media screen and (min-width:768px) {
         .container.aboutus-cont {
             width: 65%;
@@ -363,13 +363,13 @@ main .container .getademo-card.first .card-photo.first {
 }
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    /* regole RESPONSIVE - GET STARTED section - TABLET */
     @media screen and (min-width:480px) {
         
     } 
 
 
-    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    /* regole RESPONSIVE - GET STARTED section - DESKTOP */
     @media screen and (min-width:768px) {
        .getstarted .container {
         width: 70%;
@@ -377,7 +377,31 @@ main .container .getademo-card.first .card-photo.first {
     }
 
 
-    
+
+
+
+/* regole FOOTER */
+.footer {
+    background-color: #383838;
+    text-align: center;
+}
+
+
+    /* regole RESPONSIVE - FOOTER - TABLET */
+    @media screen and (min-width:480px) {
+        
+    } 
+
+
+    /* regole RESPONSIVE - FOOTER - DESKTOP */
+    @media screen and (min-width:768px) {
+       .getstarted .container {
+        width: 70%;
+       }
+    }
+
+
+
 
 
 /* regole DEBUG */
@@ -427,5 +451,9 @@ main .container .getademo-card .card-photo {
 }
 
 .getstarted {
+    min-height: 350px;
+}
+
+.footer {
     min-height: 350px;
 }
