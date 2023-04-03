@@ -55,6 +55,7 @@ header .header-nav .nav-tablet-desktop {
         header {
             min-width: 768px;
             max-width: 100%;
+            height: 60px;
         }
 
         header .header-nav .nav-tablet-desktop {
@@ -156,10 +157,66 @@ main .container .getademo-card.first .card-photo.first {
             width: 50%;
         }
 
+        main .container .getademo-card.first,
+        main .container .getademo-card.second {
+            margin-top: 110px;
+        }
+
         main .container .getademo-card.row-bottom {
             height: 220px;
         }
     }
+
+
+
+
+
+/* regole STRATEGIC PLANNING section */
+.strategic-planning {
+    background-color: #9792e4;
+    margin-top: 65px;
+    padding-bottom: 30px;
+}
+
+.strategic-planning .container.strategic-cont {
+    padding-top: 20px;
+}
+
+.strategic-planning .container .planning-col {
+    width: 100%;
+    min-height: 520px;
+}
+
+.strategic-planning .container .planning-col.col2 {
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    @media screen and (min-width:480px) and (max-width:768px) {
+        .container.strategic-cont {
+            max-width: 768px;
+        }
+    } 
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    @media screen and (min-width:768px) {
+        .container.strategic-cont {
+            display: flex;
+            align-items: flex-end;
+            gap: 15px;
+            width: 60%;
+            max-width: 100%;
+        }
+
+        .strategic-planning .container .planning-col.col2 {
+            min-height: 0;
+            height: 380px;
+        }
+    } 
 
 
 
@@ -188,5 +245,9 @@ header .container {
 main .container .getademo-card .card-text,
 main .container .getademo-card .card-photo {
     background-color: blue;
+    border: 2px solid black;
+}
+
+.planning-col {
     border: 2px solid black;
 }
