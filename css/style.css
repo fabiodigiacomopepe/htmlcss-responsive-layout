@@ -222,6 +222,50 @@ main .container .getademo-card.first .card-photo.first {
 
 
 
+/* regole TESTIMONIALS section */
+.testimonial-cont {
+    padding: 65px 0 40px;
+}
+
+.testimonial-cont .testimonial-card {
+    width: 100%;
+    min-height: 430px;
+    background-color: #9792e4;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    @media screen and (min-width:480px) {
+        .container.testimonial-cont {
+            max-width: 768px;
+        }
+
+        .testimonial-cont .testimonial-card {
+            min-height: 260px;
+            display: flex;
+        }
+    } 
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    @media screen and (min-width:768px) {
+        .container.testimonial-cont {
+            width: 70%;
+            max-width: 100%;
+        }
+
+        .testimonial-cont .testimonial-card {
+            min-height: 240px;
+        }
+    } 
+
+
+
+
+
 /* regole DEBUG */
 header .container {
     background-color: brown;
@@ -249,5 +293,9 @@ main .container .getademo-card .card-photo {
 }
 
 .planning-col {
+    border: 2px solid black;
+}
+
+.testimonial-cont .testimonial-card {
     border: 2px solid black;
 }
