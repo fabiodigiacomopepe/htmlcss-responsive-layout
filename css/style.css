@@ -356,6 +356,30 @@ main .container .getademo-card.first .card-photo.first {
 
 
 
+/* regole GET STARTED section */
+.getstarted {
+    background-color: #9792e4;
+    text-align: center;
+}
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    @media screen and (min-width:480px) {
+        
+    } 
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    @media screen and (min-width:768px) {
+       .getstarted .container {
+        width: 70%;
+       }
+    }
+
+
+    
+
+
 /* regole DEBUG */
 header .container {
     background-color: brown;
@@ -400,4 +424,8 @@ main .container .getademo-card .card-photo {
     background-color: rgb(211, 100, 100);
     border: 2px solid black;
     min-height: 400px;
+}
+
+.getstarted {
+    min-height: 350px;
 }
