@@ -318,6 +318,44 @@ main .container .getademo-card.first .card-photo.first {
 
 
 
+/* regole ABOUT US section */
+.container.aboutus-cont .aboutus-flex {
+   
+}
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - TABLET */
+    @media screen and (min-width:480px) {
+        .container.aboutus-cont {
+            width: 80%;
+            max-width: 100%;
+        }
+
+        .container.aboutus-cont .aboutus-flex {
+            display: flex;
+        }
+
+        .container.aboutus-cont .aboutus-flex .aboutus-text-col {
+            width: 60%;
+        }
+
+        .container.aboutus-cont .aboutus-flex .aboutus-photo-col {
+            width: 40%;
+        }
+    } 
+
+
+    /* regole RESPONSIVE - STRATEGIC PLANNING section - DESKTOP */
+    @media screen and (min-width:768px) {
+        .container.aboutus-cont {
+            width: 65%;
+        }
+    }
+
+
+
+
+
 /* regole DEBUG */
 header .container {
     background-color: brown;
@@ -355,4 +393,11 @@ main .container .getademo-card .card-photo {
 .benefits .benefits-cont .benefits-col {
     min-height: 350px;
     border: 2px solid black;
+}
+
+.container.aboutus-cont .aboutus-flex .aboutus-text-col,
+.container.aboutus-cont .aboutus-flex .aboutus-photo-col {
+    background-color: rgb(211, 100, 100);
+    border: 2px solid black;
+    min-height: 400px;
 }
