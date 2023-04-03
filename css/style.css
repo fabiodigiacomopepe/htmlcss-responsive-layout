@@ -10,9 +10,12 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
+
+
+
 
 
 /* regole HEADER */
@@ -39,33 +42,127 @@ header .header-nav .nav-tablet-desktop {
 }
 
 
-/* regole RESPONSIVE - HEADER - TABLET */
-@media screen and (min-width:480px) and (max-width:768px) {
-    header {
-        max-width: 768px;
-    }
-} 
+    /* regole RESPONSIVE - HEADER - TABLET */
+    @media screen and (min-width:480px) and (max-width:768px) {
+        header {
+            max-width: 768px;
+        }
+    } 
 
 
-/* regole RESPONSIVE - HEADER - DESKTOP */
-@media screen and (min-width:768px) {
-    header {
-        min-width: 768px;
-        max-width: 100%;
+    /* regole RESPONSIVE - HEADER - DESKTOP */
+    @media screen and (min-width:768px) {
+        header {
+            min-width: 768px;
+            max-width: 100%;
+        }
+
+        header .header-nav .nav-tablet-desktop {
+            display: block;
+        }
+
+        header .header-nav .nav-mobile {
+            display: none;
+        }
+
+        header .container {
+            width: 70%;
+        }
+    } 
+
+
+
+
+
+/* regole GET A DEMO section */
+main .container .getademo-card {
+    background-color: #b5ddff;
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+main .container .getademo-card.first {
+    margin-top: 150px;
+    height: 550px;
+}
+
+main .container .getademo-card .card-text {
+    padding: 25px;
+    height: 100%;
+}
+
+main .container .getademo-card.first .card-text.first,
+main .container .getademo-card.first .card-photo.first {
+    height: 50%;
+}
+
+
+    /* regole RESPONSIVE - GET A DEMO section - TABLET */
+    @media screen and (min-width:480px) {
+        .container.getademo-cont {
+            max-width: 768px;
+        }
+        
+        .getademo-cont {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        main .container .getademo-card {
+            width: 32%;
+            height: 550px;
+        }
+
+        main .container .getademo-card.first {
+            width: 66%;
+            /* 32% + 2% (margine) + 32% 
+            2% di margine= 32*3= 96%
+            100-96= 4% di margine
+            4% è diviso su 2 lati, quindi /2= 2% */
+        }
+
+        main .container .getademo-card.second {
+            margin-top: 150px;
+        }
+
+        main .container .getademo-card.row-bottom {
+            height: 420px;
+        }
+    } 
+
+
+    /* regole RESPONSIVE - GET A DEMO section - DESKTOP */
+    @media screen and (min-width:768px) {
+        .container.getademo-cont {
+            width: 70%;
+            max-width: 100%;
+        }
+
+        main .container .getademo-card {
+            height: 220px;
+        }
+
+        main .container .getademo-card.first {
+            height: 220px;
+            display: flex;
+        }
+
+        main .container .getademo-card.first .card-text.first,
+        main .container .getademo-card.first .card-photo.first {
+            height: 100%;
+            width: 50%;
+        }
+
+        main .container .getademo-card.row-bottom {
+            height: 220px;
+        }
     }
 
-    header .header-nav .nav-tablet-desktop {
-        display: block;
-    }
 
-    header .header-nav .nav-mobile {
-        display: none;
-    }
 
-    header .container {
-        width: 70%;
-    }
-} 
 
 
 /* regole DEBUG */
@@ -86,4 +183,10 @@ header .container {
 
 .container .header-nav .nav-tablet-desktop {
     background-color: rgb(197, 238, 11);
+}
+
+main .container .getademo-card .card-text,
+main .container .getademo-card .card-photo {
+    background-color: blue;
+    border: 2px solid black;
 }
