@@ -128,9 +128,56 @@ main .container .getademo-card .card-text {
     height: 100%;
 }
 
+main .container .getademo-card .card-text.center {
+    text-align: center;
+}
+
+main .container .getademo-card .card-text i {
+    color: #0184fd;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+#apple {
+    color: white;
+    font-size: 1em;
+}
+
+main .container .getademo-card .card-text h2 {
+    color: #0184fd;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+main .container .getademo-card .card-text p {
+    color: #5a6e7f;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+main .container .getademo-card .card-text a {
+    color: white;
+    background-color: #0184fd;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
 main .container .getademo-card.first .card-text.first,
 main .container .getademo-card.first .card-photo.first {
     height: 50%;
+}
+
+main .container .getademo-card.first .card-photo.first {
+    position: relative;
+}
+
+main .container .getademo-card.first .card-photo.first img {
+    max-height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
 }
 
 
@@ -166,6 +213,26 @@ main .container .getademo-card.first .card-photo.first {
         main .container .getademo-card.row-bottom {
             height: 420px;
         }
+
+        main .container .getademo-card .card-text i {
+            font-size: 3em;
+        }
+
+        main .container .getademo-card .card-text h2 {
+            font-size: 0.9em;
+        }
+        
+        main .container .getademo-card .card-text p {
+            font-size: 0.8em;
+        }
+        
+        main .container .getademo-card .card-text a {
+            font-size: 0.8em;
+        }
+
+        main .container .getademo-card.first .card-photo.first img {
+            max-height: 70%;
+        }
     } 
 
 
@@ -198,6 +265,18 @@ main .container .getademo-card.first .card-photo.first {
 
         main .container .getademo-card.row-bottom {
             height: 220px;
+        }
+
+        main .container .getademo-card .card-text h2 {
+            font-size: 1em;
+        }
+        
+        main .container .getademo-card .card-text p {
+            font-size: 0.7em;
+        }
+        
+        main .container .getademo-card .card-text a {
+            font-size: 0.6em;
         }
     }
 
@@ -458,11 +537,11 @@ main .container .getademo-card.first .card-photo.first {
     background-color: rgb(197, 238, 11);
 } */
 
-main .container .getademo-card .card-text,
+/* main .container .getademo-card .card-text,
 main .container .getademo-card .card-photo {
     background-color: blue;
     border: 2px solid black;
-}
+} */
 
 .planning-col {
     border: 2px solid black;
