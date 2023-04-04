@@ -305,19 +305,45 @@ header .header-nav .nav-tablet-desktop {
     padding-bottom: 30px;
 }
 
-.strategic-planning .container.strategic-cont {
+.container.strategic-cont {
     padding-top: 20px;
 }
 
-.strategic-planning .container .planning-col {
+.container.strategic-cont .planning-col {
     width: 100%;
     min-height: 520px;
+    color: white;
 }
 
-.strategic-planning .container .planning-col.col2 {
+.planning-col h2 {
+    margin-bottom: 20px;
+}
+
+
+.planning-col img {
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.container.strategic-cont .planning-col.col2 {
     border-radius: 50px;
     margin-top: 20px;
     background-color: white;
+    color: black;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.planning-col.col2 p {
+    margin-bottom: 20px;
+}
+
+.arrow i {
+    background-color: #9792e4;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 
@@ -339,9 +365,25 @@ header .header-nav .nav-tablet-desktop {
             max-width: 100%;
         }
 
-        .strategic-planning .container .planning-col.col2 {
+        .container.strategic-cont .planning-col.col2  {
             min-height: 0;
-            height: 380px;
+        }
+
+        .planning-col.col2 h2 {
+            font-size: 1em;
+        }
+
+        .planning-col.col2 p {
+            font-size: 0.7em;
+        }
+
+        .planning-col.col2 i {
+            font-size: 0.7em;
+        }
+
+        .planning-col.col2 img {
+            margin-bottom: 0px;
+            max-width: 60%;
         }
     } 
 
@@ -557,9 +599,9 @@ main .container .getademo-card .card-photo {
     border: 2px solid black;
 } */
 
-.planning-col {
+/* .planning-col {
     border: 2px solid black;
-}
+} */
 
 .testimonial-cont .testimonial-card {
     border: 2px solid black;
