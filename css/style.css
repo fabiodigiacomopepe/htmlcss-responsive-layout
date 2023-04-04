@@ -302,7 +302,11 @@ header .header-nav .nav-tablet-desktop {
         }
     }
 
-
+    @media screen and (min-width:950px) {
+    .getademo-card .card-text p {
+        font-size: 0.9em;
+    }
+}
 
 
 
@@ -392,7 +396,7 @@ header .header-nav .nav-tablet-desktop {
 
         .planning-col.col2 p,
         .planning-col.col2 i {
-            font-size: 0.7em;
+            font-size: 1em;
         }
 
         .planning-col.col2 img {
