@@ -124,7 +124,7 @@ header .header-nav .nav-tablet-desktop {
 }
 
 .getademo-card .card-text {
-    padding: 25px;
+    padding: 18px;
     height: 100%;
 }
 
@@ -230,7 +230,7 @@ header .header-nav .nav-tablet-desktop {
         }
         
         .getademo-card .card-text p {
-            font-size: 0.95em;
+            font-size: 1em;
         }
         
         .getademo-card .card-text a {
@@ -239,6 +239,7 @@ header .header-nav .nav-tablet-desktop {
 
         .getademo-card.first .card-photo.first img {
             margin: 0 0;
+            max-width: 75%;
         }
     } 
 
@@ -288,11 +289,16 @@ header .header-nav .nav-tablet-desktop {
         
         .getademo-card .card-text a {
             font-size: 0.6em;
+            padding: 8px 27px;
         }
 
         .getademo-card .card-text i {
             font-size: 2.5em;
             margin-bottom: 0.2em;
+        }
+
+        .getademo-card.first .card-photo.first img {
+            max-width: 60%;
         }
     }
 
@@ -552,6 +558,28 @@ header .header-nav .nav-tablet-desktop {
         .benefits-col-container .benefits-col {
             width: 48%;
         }
+
+        .benefits-col-container .benefits-col h3 {
+            font-size: 29px;
+        }
+    } 
+
+    @media screen and (min-width:480px) and (max-width:557px) {
+        .benefits-col.col5 h3 {
+            margin-bottom: 54.5px;
+        }
+    } 
+
+    @media screen and (min-width:507.5px) and (max-width:648.5px) {
+        .benefits-col.col4 h3 {
+            margin-bottom: 58.5px;
+        }
+    } 
+
+    @media screen and (min-width:540.5px) and (max-width:573.5px) {
+        .benefits-col.col1 h3 {
+            margin-bottom: 54.5px;
+        }
     } 
 
 
@@ -564,6 +592,30 @@ header .header-nav .nav-tablet-desktop {
 
         .benefits-col-container .benefits-col {
             width: 32%;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1015.5px) {
+        .benefits-col.col5 h3 {
+            margin-bottom: 54.5px;
+        }
+    } 
+
+    @media screen and (min-width:924.5px) and (max-width:1015.5px) {
+        .benefits-col.col4 h3 {
+            margin-bottom: 58.5px;
+        }
+    } 
+
+    @media screen and (min-width:985.5px) and (max-width:1180.5px) {
+        .benefits-col.col1 h3 {
+            margin-bottom: 54.5px;
+        }
+    }
+
+    @media screen and (min-width:1044.5px) and (max-width:1180.5px) {
+        .benefits-col.col2 h3 {
+            margin-bottom: 54.5px;
         }
     }
 
@@ -636,6 +688,10 @@ header .header-nav .nav-tablet-desktop {
         .container.aboutus-cont .aboutus-flex .aboutus-photo-col {
             width: 40%;
         }
+
+        .aboutus-photo-col a {
+            font-size: 10px;
+        }
     } 
 
 
@@ -690,7 +746,7 @@ header .header-nav .nav-tablet-desktop {
     background-color: white;
     color:#9792e4;
     border-radius: 50px;
-    padding: 18px 80px;
+    padding: 18px 70px;
     font-weight: bold;
     letter-spacing: 0.1cm;
 }
