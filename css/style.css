@@ -599,9 +599,20 @@ header .header-nav .nav-tablet-desktop {
         }
     }
 
+    @media screen and (min-width:768px) and (max-width:850px) {
+        .benefits-col-container .benefits-col.col5 h3 {
+            font-size: 25px;
+            margin-bottom: 64.5px;
+        }
+
+        .benefits-col a {
+            padding: 10px 30px;
+        }
+    } 
+
     @media screen and (min-width:768px) and (max-width:1015.5px) {
         .benefits-col.col5 h3 {
-            margin-bottom: 54.5px;
+            margin-bottom: 58.5px;
         }
     } 
 
