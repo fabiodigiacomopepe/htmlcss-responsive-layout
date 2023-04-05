@@ -443,8 +443,10 @@ header .header-nav .nav-tablet-desktop {
 }
 
 .testimonial-photo img {
-    max-width: 100%;
-    border-radius: 100px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .testimonial-info h3 {
